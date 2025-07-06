@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "bebas neue";
+}
+
+body img
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.main-header
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 45px;
+    color: goldenrod;
+}
+
+.header-2
+{    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    gap: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+.main-content
+{
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    margin-top: 40px;
+    gap: 600px;
+    color: white;
+    font-size: 25px;
+}
+
+.cardsTxt
+{
+    margin-bottom: 115px;
+}
+
+.btn
+{
+display: flex;
+justify-content: center;
+}
+
+.btn-start
+{
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    border: 0px;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-start:hover
+{
+    size: 5px;
+    background: rgb(153, 117, 26);
+    transform: scale(0.95);
+    transition: ease 0.1s;
+
+}
+
+.new-card-section
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-card-txt
+{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+.new-card-btn
+{
+
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    border: 0px;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.new-card-btn:hover
+{
+    size: 5px;
+    background: rgb(153, 117, 26);
+    transform: scale(0.95);
+    transition: ease 0.1s;
+
+}

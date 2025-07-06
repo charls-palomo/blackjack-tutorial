@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack | JavaScript Tutorial Project</title>
+</head>
+<body>
+    <img src="blackjacktable.jpg" alt="">
+    <header class="main-header">
+        <h1>
+            Blackjack
+        </h1>
+
+    </header>
+    <section class="header-2">
+        <p id="messageEl">
+            Want to play a round?
+        </p>
+
+    </section>
+        <section class="btn">
+        <button class = "btn-start" id="startBtn" onclick="startGame()">
+            START GAME
+        </button>
+    </section>
+    <main class="main-content">
+
+        <p class="cardsTxt" id="cardsEl">
+            Cards: 
+        </p>
+
+        <p class="sumTxt" id="sumEl">
+            Sum: 
+        </p>
+    </main>
+
+    <section class="new-card-section">
+        <button id="newCardBtn" class="new-card-btn" onclick="newCard()">
+            NEW CARD
+        </button>
+        <br>
+        <p class="new-card-txt" id="newCardTxt">
+            New Card: 
+        </p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
