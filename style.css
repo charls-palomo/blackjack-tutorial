@@ -31,7 +31,8 @@ body img
 }
 
 .header-2
-{    display: flex;
+{
+    display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
@@ -45,7 +46,6 @@ body img
 {
     display: flex;
     justify-content: center;
-
     text-align: center;
     margin-top: 40px;
     gap: 600px;
@@ -60,8 +60,8 @@ body img
 
 .btn
 {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .btn-start
@@ -77,11 +77,9 @@ justify-content: center;
 
 .btn-start:hover
 {
-    size: 5px;
     background: rgb(153, 117, 26);
     transform: scale(0.95);
     transition: ease 0.1s;
-
 }
 
 .new-card-section
@@ -100,7 +98,6 @@ justify-content: center;
 
 .new-card-btn
 {
-
     color: #016f32;
     width: 150px;
     background: goldenrod;
@@ -112,9 +109,30 @@ justify-content: center;
 
 .new-card-btn:hover
 {
-    size: 5px;
     background: rgb(153, 117, 26);
     transform: scale(0.95);
     transition: ease 0.1s;
+}
 
+@media (max-width: 600px) {
+  .main-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .main-header {
+    font-size: 30px;
+  }
+
+  .header-2 {
+    font-size: 20px;
+  }
+
+  .main-content {
+    font-size: 20px;
+  }
+
+  .new-card-txt {
+    font-size: 25px;
+  }
 }
